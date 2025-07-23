@@ -78,3 +78,20 @@ p{
     background-color: rgb(0,255,255);
     
 }
+
+/* Estilo personalizado para el modal */
+.custom-modal .modal-content {
+    background-color: rgb(0, 255, 255); /* Fondo celeste */
+    color: black; /* Texto negro */
+}
+
+/* Opcional: asegurarse que botones y otros textos hereden el color */
+.custom-modal .modal-header,
+.custom-modal .modal-body,
+.custom-modal .modal-footer {
+    color: black;
+}
+
+.custom-modal .btn-close {
+    filter: invert(1); /* Hace el botón de cerrar visible sobre fondo claro */
+}
